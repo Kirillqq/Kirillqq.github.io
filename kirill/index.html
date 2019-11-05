@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Киприянов Кирилл</title>
+    <link rel="stylesheet" href="./style.css">  
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+   <canvas id="c"></canvas> 
+<div class="me">  Кирилл Киприянов <br>
+<div class="me2">
+<a href="https://vk.com/ki_ki_ki_ki" target="_blank"><i class="fab fa-vk vk"></i></a>
+<a href="https://teleg.run/KirillLZT" target="_blank"><i class="fab fa-telegram telegram" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/_kiprianov" target="_blank"><i class="fab fa-instagram instagram" aria-hidden="true"></i></a>
+<a href="https://steamcommunity.com/id/dk_teroegch" target="_blank"><i class="fab fa-steam-square steam" aria-hidden="true"></i></a>
+</div>
+<script src="https://kit.fontawesome.com/a95e82d557.js"></script>
+  <script src='js/kzymdn.js'></script>
+  <script  src="./script.js"></script>
+  <script>
+document.oncontextmenu = cmenu; function cmenu() { return false; }
+</script>
+
+
+<script>
+function preventSelection(element){
+  var preventSelection = false;
+  function addHandler(element, event, handler){
+  if (element.attachEvent) element.attachEvent('on' + event, handler);
+  else if (element.addEventListener) element.addEventListener(event, handler, false);  }
+  function removeSelection(){
+  if (window.getSelection) { window.getSelection().removeAllRanges(); }
+  else if (document.selection && document.selection.clear)
+  document.selection.clear();
+  }
+  addHandler(element, 'mousemove', function(){ if(preventSelection) removeSelection(); });
+  addHandler(element, 'mousedown', function(event){ var event = event || window.event; var sender = event.target || event.srcElement; preventSelection = !sender.tagName.match(/INPUT|TEXTAREA/i) ;});
+  function killCtrlA(event){
+  var event = event || window.event;
+  var sender = event.target || event.srcElement;
+  if (sender.tagName.match(/INPUT|TEXTAREA/i)) return;
+  var key = event.keyCode || event.which;
+  if ((event.ctrlKey && key == 'U'.charCodeAt(0)) || (event.ctrlKey && key == 'A'.charCodeAt(0)) || (event.ctrlKey && key == 'S'.charCodeAt(0)))  
+  { removeSelection();
+  if (event.preventDefault) event.preventDefault();
+  else event.returnValue = false;}}
+  addHandler(element, 'keydown', killCtrlA);
+  addHandler(element, 'keyup', killCtrlA);
+}
+preventSelection(document);
+</script>
+
+
+
+</div>
+</body>
+
+</html>

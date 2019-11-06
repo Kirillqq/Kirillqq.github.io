@@ -1,0 +1,15 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 8C10.2386 8 8 10.2386 8 13V25C8 27.7614 10.2386 30 13 30H25C27.7614 30 30 27.7614 30 25V13C30 10.2386 27.7614 8 25 8H13ZM16.8666 13.8666C15.2098 13.8666 13.8666 15.2098 13.8666 16.8666V21.1333C13.8666 22.7902 15.2098 24.1333 16.8666 24.1333H21.1333C22.7902 24.1333 24.1333 22.7902 24.1333 21.1333V16.8666C24.1333 15.2098 22.7902 13.8666 21.1333 13.8666H16.8666Z" fill="#F5F4FC"/>
+<rect x="33" y="11" width="5" height="2" rx="1" fill="#F5F4FC"/>
+<rect x="33" y="25" width="5" height="2" rx="1" fill="#F5F4FC"/>
+<rect x="33" y="18" width="5" height="2" rx="1" fill="#F5F4FC"/>
+<rect y="11" width="5" height="2" rx="1" fill="#F5F4FC"/>
+<rect y="25" width="5" height="2" rx="1" fill="#F5F4FC"/>
+<rect y="18" width="5" height="2" rx="1" fill="#F5F4FC"/>
+<rect x="27" y="33" width="5" height="2" rx="1" transform="rotate(90 27 33)" fill="#F5F4FC"/>
+<rect x="13" y="33" width="5" height="2" rx="1" transform="rotate(90 13 33)" fill="#F5F4FC"/>
+<rect x="20" y="33" width="5" height="2" rx="1" transform="rotate(90 20 33)" fill="#F5F4FC"/>
+<rect x="27" width="5" height="2" rx="1" transform="rotate(90 27 0)" fill="#F5F4FC"/>
+<rect x="13" width="5" height="2" rx="1" transform="rotate(90 13 0)" fill="#F5F4FC"/>
+<rect x="20" width="5" height="2" rx="1" transform="rotate(90 20 0)" fill="#F5F4FC"/>
+</svg>
